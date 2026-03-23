@@ -264,40 +264,44 @@
 @media (width >= 768px) {
   
   .header__decoration-dark {
-  margin-block-start: 20px;
-  margin-inline-end: 20px;
+    margin-block-start: 20px;
+    margin-inline-end: 20px;
   }
 
-  .decorated-zone::before {
-  margin-block-start: 20px;
-  margin-inline-end: 20px;
+  .decorated-area::before {
+    margin-block-start: 20px;
+    margin-inline-end: 20px;
   }
 
-  .decorated-zone::after {
-  margin-block-end: 20px;
-  margin-inline-start: 20px;
+  .decorated-area::after {
+    margin-block-end: 20px;
+    margin-inline-start: 20px;
   }
   
-  .footer.decorated-zone::before {
-  margin-block-start: 16px;
+  .footer.decorated-area::before {
+    margin-block-start: 16px;
+  }
+
+  .footer.decorated-area::after {
+    margin-block-end: 16px;
   }
 
   .header {
-  padding-inline-start: 20px;
-  padding-inline-end: 20px;
-  padding-block-start: 20px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    padding-block-start: 20px;
   }
 
   .header__title {
-  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  margin-inline-start: -20px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-inline-start: -20px;
   }
 
   .header__text {
-  max-width: 364px;
-  display: flex;
-  justify-self: end;
-  margin-block-end: 30px;
+    max-width: 364px;
+    display: flex;
+    justify-self: end;
+    margin-block-end: 30px;
   }
   
   .header__theme-menu {
@@ -305,8 +309,8 @@
   }
 
   .main {
-  padding-inline-start: 20px;
-  padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
   }
   
   .aligment-title {
@@ -320,30 +324,30 @@
   }
 
   .images {
-  display: grid;
-  object-fit: contain;
-  gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas:
-  "sunset sunset ice-cream"
-  "tape books ice-cream"
-  "tape street street";
+    display: grid;
+    object-fit: contain;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "sunset sunset ice-cream"
+    "tape books ice-cream"
+    "tape street street";
   }
 
   .footer {
-  margin-block-start: 65px;
-  padding-block-end: 7px;
+    margin-block-start: 65px;
+    padding-block-end: 7px;
   }
 
   .footer__text {
-  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .difficulties {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin-block-start: 60px;
-  margin-block-end: 70px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-block-start: 60px;
+    margin-block-end: 70px;
   }
   
   .factors {
@@ -351,9 +355,9 @@
   }
 
   .tips {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin-block-start: 72px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-block-start: 72px;
   }
 }
 
@@ -375,8 +379,8 @@
   }
   
   .header__text {
-  display: flex;
-  max-width: 491px;
+    display: flex;
+    max-width: 491px;
   }
   
   .header__title {
@@ -390,27 +394,24 @@
   .main-section {
     gap: 10px;
   }
-
-  .aligment-title {
-  padding-block-end: 5px;
-  }
   
   .gallery {
     margin-block-start: 72px;
   }
 
   .difficulties {
-  margin-block-start: 62px;
-  margin-block-end: 70px;
+    margin-block-start: 62px;
+    margin-block-end: 70px;
   }
 
   .aligment-title {
-  display: block;
-  width: 35%;
+    display: block;
+    width: 35%;
+    padding-block-end: 5px;
   }
 
   .factors {
-   margin-block-start: 10px;
+    margin-block-start: 10px;
   }
 
   .tips {

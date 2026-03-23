@@ -12,6 +12,7 @@
   --link-color: #353430;
   --corner-color: #353430;
   --button-color: #353430;
+  --button-hover: #32312D66;
   .header__decoration-dark {
     display: none;
   }
@@ -26,6 +27,8 @@
    --link-color: #353430;
    --corner-color: #353430;
    --button-color: #353430;
+   --button-hover: #32312D66;
+
   }
   .header__decoration-dark {
     display: none;
