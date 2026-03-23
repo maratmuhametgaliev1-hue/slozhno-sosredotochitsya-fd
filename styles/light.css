@@ -6,8 +6,10 @@
 
 :root.theme-light {
   --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #FFF1F7;
   --main-color: #FF8DCB;
   --title-color: #353430;
+  --sub-title-color: #353430;
   --header-color: #FFC2E6;
   --link-color: #353430;
   --corner-color: #353430;
@@ -21,8 +23,10 @@
 @media (prefers-color-scheme: light) {
   :root {
    --bg-image: url(../images/cover-image-light.png);
+   --bg-color: #FFF1F7;
    --main-color: #FF8DCB;
    --title-color: #353430;
+   --sub-title-color: #353430;
    --header-color: #FFC2E6;
    --link-color: #353430;
    --corner-color: #353430;

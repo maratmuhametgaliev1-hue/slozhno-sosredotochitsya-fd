@@ -136,7 +136,7 @@
 .title-decor {
   font-family: var(--font-family);
   background-color: var(--main-color, #ff0070);
-  color: var(--bg-color, #000028);
+  color: var(--sub-title-color, #000028);
   font-size: var(--font-size, 18px);
   line-height: 23.4px;
   font-weight: 700;
@@ -287,8 +287,7 @@
   }
 
   .header {
-    padding-inline-start: 20px;
-    padding-inline-end: 20px;
+    padding-inline: 20px;
     padding-block-start: 20px;
   }
 
@@ -298,9 +297,9 @@
   }
 
   .header__text {
-    max-width: 364px;
     display: flex;
     justify-self: end;
+    max-inline-size: 364px;
     margin-block-end: 30px;
   }
   
@@ -309,8 +308,7 @@
   }
 
   .main {
-    padding-inline-start: 20px;
-    padding-inline-end: 20px;
+    padding-inline: 20px;
   }
   
   .aligment-title {
@@ -380,7 +378,7 @@
   
   .header__text {
     display: flex;
-    max-width: 491px;
+    max-inline-size: 491px;
   }
   
   .header__title {
@@ -406,7 +404,7 @@
 
   .aligment-title {
     display: block;
-    width: 35%;
+    inline-size: 35%;
     padding-block-end: 5px;
   }
 
