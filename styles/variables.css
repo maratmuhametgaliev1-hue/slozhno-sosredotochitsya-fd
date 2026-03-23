@@ -1,3 +1,20 @@
+:root {
+  --bg-image: url(/images/cover-image-dark.png);
+  --font-family: 'IBM Plex Mono', monospace;
+  --font-size: 18px;
+  --font-weight: 400;
+  --bg-color: #000028;
+  --header-color: #db00ff;
+  --title-color: #ff0070;
+  --main-color: #ff0070;
+  --corner-color: #ff0070;
+  --link-color: #f1b2ce;
+  --decoration-color: #ff0070;
+  --links-color: #f1b2ce;
+  --button-hover: rgba(255, 0, 112, 0.4);
+  --button-color: #ff0070;
+}
+
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства
