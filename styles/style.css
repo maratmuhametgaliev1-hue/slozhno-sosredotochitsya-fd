@@ -1,5 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   background-image: var(--bg-image);
   background-attachment: fixed;
