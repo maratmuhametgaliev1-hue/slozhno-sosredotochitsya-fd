@@ -11,8 +11,8 @@
 .decorated-area::before {
   content: "";
   position: absolute;
-  width: 25px;
-  height: 25px;
+  inline-size: 25px;
+  block-size: 25px;
   align-self: flex-start;
   justify-self: end;
   border-block-start: 1px solid var(--corner-color);
@@ -24,8 +24,8 @@
 .decorated-area::after {
   content: "";
   position: absolute;
-  width: 25px;
-  height: 25px;
+  inline-size: 25px;
+  block-size: 25px;
   justify-self: start;
   align-self: flex-end;
   border-block-end: 1px solid var(--corner-color);
@@ -76,12 +76,12 @@
 
 .header__decoration-dark::after {
   content: '';
-  height: 9px;
-  width: 9px;
+  block-size: 9px;
+  inline-size: 9px;
   border-radius: 50%;
   background-color: var(--main-color, #ff0070);
   margin-inline: 10px;
-  margin-block: 8px ;
+  margin-block: 8px;
   box-shadow: 0 0 4px 2px var(--main-color, #ff0070);
 }
 
@@ -152,11 +152,16 @@
   padding-inline: 10px;
 }
 
+.main-content {
+  display: grid;
+  gap: 10px;
+}
+
 .main-title {
   font-size: var(--font-size, 18px);
   color: var(--title-color, #ff0070);
   font-family: var(--font-family);
-  line-height: 130%;
+  line-height: 23.4px;
 }
 
 .main-text {
@@ -168,14 +173,9 @@
   padding-block-end: 10px;
 }
 
-.main-content {
-  display: grid;
-  gap: 10px;
-}
-
 .main-section {
   display: grid;
-  gap: 20px;
+  gap: 19px;
 }
 
 .aligment-title {
@@ -302,10 +302,6 @@
     max-inline-size: 364px;
     margin-block-end: 30px;
   }
-  
-  .header__theme-menu {
-    margin: 0;
-  }
 
   .main {
     padding-inline: 20px;
@@ -347,15 +343,11 @@
     margin-block-start: 60px;
     margin-block-end: 70px;
   }
-  
-  .factors {
-    margin: 0;
-  }
 
   .tips {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-block-start: 72px;
+    margin-block-start: 70px;
   }
 }
 
