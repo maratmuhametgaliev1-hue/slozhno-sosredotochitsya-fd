@@ -2,8 +2,8 @@
 .page {
   background-image: var(--bg-image);
   background-attachment: fixed;
-  object-position: center;
-  object-fit: cover;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: var(--bg-color);
 }
@@ -35,7 +35,6 @@
 }
 
 .main-content-link {
-  font-family: var(--font-family);
   color: var(--link-color, #F1B2CE);
   text-shadow: 2px 2px 0 var(--main-color, #FF0070);
   text-decoration: none;
@@ -66,7 +65,6 @@
   justify-self: end;
   color: var(--main-color, #FF0070);
   font-weight: var(--font-weight, 400);
-  font-family: var(--font-family);
   font-size: var(--font-size);
   text-transform: uppercase;
   line-height: 25px;
@@ -103,7 +101,6 @@
   border: 1px solid transparent;
   font-size: var(--font-size, 18px);
   color: var(--button-color, #ff0070);
-  font-family: var(--font-family);
   font-weight: var(--font-weight, 400);
   line-height: 18px;
   background-color: transparent;
@@ -125,7 +122,6 @@
 }
 
 .header__title {
-  font-family: var(--font-family);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--header-color,#DB00FF);
   text-shadow: 4px 4px 0 var(--main-color, #ff0070);
@@ -134,7 +130,6 @@
 }
 
 .title-decor {
-  font-family: var(--font-family);
   background-color: var(--main-color, #ff0070);
   color: var(--sub-title-color, #000028);
   font-size: var(--font-size, 18px);
@@ -160,7 +155,6 @@
 .main-title {
   font-size: var(--font-size, 18px);
   color: var(--title-color, #ff0070);
-  font-family: var(--font-family);
   line-height: 23.4px;
 }
 
@@ -168,7 +162,6 @@
   color: var(--link-color,#F1B2CE);
   font-size: var(--font-size, 18px);
   font-weight: var(--font-weight, 400);
-  font-family: var(--font-family);
   line-height: 23.4px;
   padding-block-end: 10px;
 }
@@ -252,7 +245,6 @@
 .footer__text {
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  font-family: var(--font-family);
   color: var(--header-color);
   text-shadow: 2px 2px 0px var(--main-color);
 }
